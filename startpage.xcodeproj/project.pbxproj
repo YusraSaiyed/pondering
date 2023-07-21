@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD020F312A67274200B29897 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD020F302A67274100B29897 /* SecondView.swift */; };
+		BD020F332A6728F200B29897 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD020F322A6728F200B29897 /* ThirdView.swift */; };
+		BD020F352A67299600B29897 /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD020F342A67299600B29897 /* FourthView.swift */; };
+		BD020F372A672BF700B29897 /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD020F362A672BF700B29897 /* FifthView.swift */; };
+		BD5885D42A6AF2E0006EDC5B /* Chewy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD5885D32A6AF2E0006EDC5B /* Chewy-Regular.ttf */; };
 		BDB329532A67115400B10CF7 /* start_pageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB329522A67115400B10CF7 /* start_pageApp.swift */; };
 		BDB329552A67115400B10CF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB329542A67115400B10CF7 /* ContentView.swift */; };
 		BDB329572A67115500B10CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB329562A67115500B10CF7 /* Assets.xcassets */; };
 		BDB3295A2A67115500B10CF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB329592A67115500B10CF7 /* Preview Assets.xcassets */; };
+		BDC75E442A69B7AA009A461F /* beaches.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC75E432A69B7AA009A461F /* beaches.swift */; };
+		BDC75E482A69B7DF009A461F /* picnics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC75E472A69B7DF009A461F /* picnics.swift */; };
+		BDC75E4A2A69B7EF009A461F /* volunteering.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC75E492A69B7EF009A461F /* volunteering.swift */; };
+		BDF71E8F2A69CE0500767B7D /* parks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71E8E2A69CE0500767B7D /* parks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD020F302A67274100B29897 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		BD020F322A6728F200B29897 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		BD020F342A67299600B29897 /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
+		BD020F362A672BF700B29897 /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
+		BD5885D32A6AF2E0006EDC5B /* Chewy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chewy-Regular.ttf"; sourceTree = "<group>"; };
+		BD5885D52A6AF303006EDC5B /* start-page-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "start-page-Info.plist"; sourceTree = SOURCE_ROOT; };
 		BDB3294F2A67115400B10CF7 /* start page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "start page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB329522A67115400B10CF7 /* start_pageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = start_pageApp.swift; sourceTree = "<group>"; };
 		BDB329542A67115400B10CF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDB329562A67115500B10CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDB329592A67115500B10CF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDC75E432A69B7AA009A461F /* beaches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beaches.swift; sourceTree = "<group>"; };
+		BDC75E472A69B7DF009A461F /* picnics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picnics.swift; sourceTree = "<group>"; };
+		BDC75E492A69B7EF009A461F /* volunteering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volunteering.swift; sourceTree = "<group>"; };
+		BDF71E8E2A69CE0500767B7D /* parks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD5885D22A6AF2AA006EDC5B /* addingFonts */ = {
+			isa = PBXGroup;
+			children = (
+				BD5885D32A6AF2E0006EDC5B /* Chewy-Regular.ttf */,
+			);
+			path = addingFonts;
+			sourceTree = "<group>";
+		};
 		BDB329462A67115300B10CF7 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +78,18 @@
 		BDB329512A67115400B10CF7 /* start page */ = {
 			isa = PBXGroup;
 			children = (
+				BD5885D52A6AF303006EDC5B /* start-page-Info.plist */,
+				BD5885D22A6AF2AA006EDC5B /* addingFonts */,
 				BDB329522A67115400B10CF7 /* start_pageApp.swift */,
 				BDB329542A67115400B10CF7 /* ContentView.swift */,
+				BD020F302A67274100B29897 /* SecondView.swift */,
+				BD020F362A672BF700B29897 /* FifthView.swift */,
+				BD020F342A67299600B29897 /* FourthView.swift */,
+				BDC75E472A69B7DF009A461F /* picnics.swift */,
+				BDC75E492A69B7EF009A461F /* volunteering.swift */,
+				BDF71E8E2A69CE0500767B7D /* parks.swift */,
+				BDC75E432A69B7AA009A461F /* beaches.swift */,
+				BD020F322A6728F200B29897 /* ThirdView.swift */,
 				BDB329562A67115500B10CF7 /* Assets.xcassets */,
 				BDB329582A67115500B10CF7 /* Preview Content */,
 			);
@@ -125,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5885D42A6AF2E0006EDC5B /* Chewy-Regular.ttf in Resources */,
 				BDB3295A2A67115500B10CF7 /* Preview Assets.xcassets in Resources */,
 				BDB329572A67115500B10CF7 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +175,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD020F332A6728F200B29897 /* ThirdView.swift in Sources */,
+				BD020F312A67274200B29897 /* SecondView.swift in Sources */,
+				BDC75E442A69B7AA009A461F /* beaches.swift in Sources */,
 				BDB329552A67115400B10CF7 /* ContentView.swift in Sources */,
+				BDC75E482A69B7DF009A461F /* picnics.swift in Sources */,
+				BDF71E8F2A69CE0500767B7D /* parks.swift in Sources */,
+				BDC75E4A2A69B7EF009A461F /* volunteering.swift in Sources */,
 				BDB329532A67115400B10CF7 /* start_pageApp.swift in Sources */,
+				BD020F372A672BF700B29897 /* FifthView.swift in Sources */,
+				BD020F352A67299600B29897 /* FourthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +315,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"start page/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "start-page-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +344,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"start page/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "start-page-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
